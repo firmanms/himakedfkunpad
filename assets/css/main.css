@@ -1812,9 +1812,6 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 100%;
   height: auto;
-  border-radius: 0px;
-  /* border: 6px solid var(--background-color); */
-  /* margin-right: 10px;  */
 }
 
 .testimonials .testimonial-item h3 {
