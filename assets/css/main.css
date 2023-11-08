@@ -1810,11 +1810,11 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
-  margin-right: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  /* border: 6px solid var(--background-color); */
+  margin-right: 10px; 
 }
 
 .testimonials .testimonial-item h3 {
