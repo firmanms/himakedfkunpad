@@ -25,6 +25,10 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
+  <!--owl-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
@@ -89,28 +93,65 @@
   </header><!-- End Header -->
 
   <main id="main">
-
-    <!-- Hero Section - Home Page -->
-    <section id="hero" class="hero">
-
-      <img src="assets/img/hero-bg1.jpg" alt="" data-aos="fade-in">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10">
-            <h2 data-aos="fade-up" data-aos-delay="100">Selamat Datang di Website HIMAKEDFKUNPAD</h2>
-            <p data-aos="fade-up" data-aos-delay="200">FK Unpad mempunyai standar kualitas internasional, berbagai kerja sama dengan mitra luar negeri membuktikan pengakuan dan memberikan kesempatan yang seluas-luasnya untuk mengakselerasi upaya nyata dalam rangka peningkatan kontribusi FK Unpad bagi Jawa Barat maupun kepentingan Nasional.</p>
-          </div>
-          <!-- <div class="col-lg-5">
-            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-              <input type="text" class="form-control" placeholder="Enter email address">
-              <input type="submit" class="btn btn-primary" value="Sign up">
-            </form>
-          </div> -->
+    <div class="slide-container"  navigation="false">
+      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="false" space-between="0"
+      centered-slides="true" autoplay-delay="4000" autoplay-disable-on-interaction="false">
+          <swiper-slide>
+          <img src="assets/img/hero-bg.jpg">
+          <div class="text-container">
+            <h3 style="color: white;">Sample</h3>
+            <p>Mountains Image with river</p>
         </div>
-      </div>
+          </swiper-slide>
+          
+          <swiper-slide>
+            <img src="assets/img/hero-bg1.jpg">
+            </swiper-slide>
+          
+      </swiper-container>
+  </div>
 
-    </section><!-- End Hero Section -->
+    <!-- <div class="swiper sample-slider">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/img/hero-bg.jpg">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-10">
+                  <h2 data-aos="fade-up" data-aos-delay="100">Selamat Datang di Website HIMAKEDFKUNPAD</h2>
+                  <p data-aos="fade-up" data-aos-delay="200">FK Unpad mempunyai standar kualitas internasional, berbagai kerja sama dengan mitra luar negeri membuktikan pengakuan dan memberikan kesempatan yang seluas-luasnya untuk mengakselerasi upaya nyata dalam rangka peningkatan kontribusi FK Unpad bagi Jawa Barat maupun kepentingan Nasional.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"><img src="assets/img/hero-bg1.jpg">
+            <h2 class="setting-up--swipe-text">Swipe Text</h2></div>
+          <div class="swiper-slide"><img src="assets/img/services.jpg">
+            <h2 class="setting-up--swipe-text">Swipe Text</h2></div>
+          <div class="swiper-slide"><img src="assets/img/hero-bg1.jpg">
+            <h2 class="setting-up--swipe-text">Swipe Text</h2></div>
+      </div> -->
+      <!-- <div class="swiper-pagination"></div> -->
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+  <!-- </div> -->
+
+    <!-- Hero Section - Home Page 
+    <section id="hero" class="hero">     
+
+            <img src="assets/img/hero-bg1.jpg" alt="" data-aos="fade-in">
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-10">
+                  <h2 data-aos="fade-up" data-aos-delay="100">Selamat Datang di Website HIMAKEDFKUNPAD</h2>
+                  <p data-aos="fade-up" data-aos-delay="200">FK Unpad mempunyai standar kualitas internasional, berbagai kerja sama dengan mitra luar negeri membuktikan pengakuan dan memberikan kesempatan yang seluas-luasnya untuk mengakselerasi upaya nyata dalam rangka peningkatan kontribusi FK Unpad bagi Jawa Barat maupun kepentingan Nasional.</p>
+                </div>
+              </div>
+            </div>
+
+
+    </section> End Hero Section -->
 
     <!-- Features Section - Home Page -->
     <section id="features" class="features">
@@ -125,7 +166,7 @@
         
         <div class="row gy-4 align-items-stretch justify-content-between features-item ">
           <div class="col-lg-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" width="80%" height="80%">
+            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" style="border-radius: 25px;" width="80%" height="80%">
           </div>
           <div class="col-lg-7 d-flex justify-content-center flex-column" data-aos="fade-up">
             <h3>Sambutan Ketua</h3>
@@ -444,7 +485,7 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/agenda.png" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="assets/img/agenda.png" class="testimonial-img flex-shrink-0" alt="" style="border-radius: 15px;">
                       <!-- <div>
                         <h3>Saul Goodman</h3>
                         <h4>Ceo & Founder</h4>
@@ -615,6 +656,29 @@
 
       <!--  Section Title -->
       <div class="container section-title" data-aos="fade-up">
+        <h2>INSTAGRAM</h2>
+        <p>HIMAKEDFK UNPAD</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-12 d-flex align-items-center" data-aos="zoom-out">
+            
+            <script src="https://embedsocial.com/js/iframe.js"></script><iframe style="border: 50%; width: 100%; height: 100%; overflow: hidden;" scrolling="no" src="https://embedsocial.com/api/pro_hashtag/0c8376f50383905b1d029a262fbcc4d0acc73c53" id="iFrameResizer0"></iframe><script>iFrameResize();</script>
+            
+          </div>
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- Features Section - Home Page -->
+    <section id="features" class="features">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
         <h2>YOUTUBE</h2>
         <p>HIMAKEDFK UNPAD</p>
       </div><!-- End Section Title -->
@@ -734,7 +798,7 @@
 
     <div class="container footer-top">
       <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
+        <div class="col-lg-7 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <img src="assets/img/HIMAKED.png" alt=""> <span>HIMAKEDFKUNPAD</span>
           </a>
@@ -758,17 +822,6 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
           <p>A108 Adam Street</p>
@@ -782,13 +835,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>&copy; <span>Copyright</span> <strong class="px-1">Append</strong> <span>All Rights Reserved</span></p>
+      <p>&copy; <span>Copyright</span> <strong class="px-1">HIMEKEDFKUNPAD</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/append-bootstrap-website-template/">BootstrapMade</a>
       </div>
     </div>
 
@@ -913,6 +966,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!--OWL-->
+  <script>
+    
+
+    
+  
+    </script>
 
 </body>
 
