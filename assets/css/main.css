@@ -887,21 +887,6 @@ section {
   }
 }
 
-/* .sample-slider{
-  width:100%;
-  
-}
-.sample-slider img{
-  
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-  object-fit: cover;
-  z-index: 1;
-  filter: brightness(40%);
-} */
 
 .slide-container{
   display: flex;
