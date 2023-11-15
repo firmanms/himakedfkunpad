@@ -2797,7 +2797,7 @@ swiper-slide img {
 
 .blog-details .blog-author {
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 0px;
   box-shadow: 0 4px 16px rgba(var(--default-color-rgb), 0.1);
 }
 
